@@ -1,6 +1,3 @@
-# Storage
-storage for links
-
 <!DOCTYPE html>
 <html>
 <head>
