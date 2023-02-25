@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41477-019-0374-3/MediaObjects/41477_2019_374_Figa_HTML.jpg');
+  background-image: url('https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2022/09/13/toguro-preso-ure1hvwpth7o.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,6 +96,45 @@ button:hover {
   border-radius: 10px;
   background-color: #f8f8f8;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 600px;
+  height: 30px;
+  font-size: 18px;
+  padding: 8px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+  .search-input {
+    height: 40px;
+  }
+}
+
+
+input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 
