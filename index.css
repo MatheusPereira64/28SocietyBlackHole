@@ -1,0 +1,62 @@
+body {
+  background-image: url('https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41477-019-0374-3/MediaObjects/41477_2019_374_Figa_HTML.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.link-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  padding: 8px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3366cc;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1c4587;
+}
+
+#linkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#linkList li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
